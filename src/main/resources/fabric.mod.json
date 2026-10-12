@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "endplus",
+	"version": "${version}",
+	"name": "End Plus",
+	"description": "Melhora o The End: novos mobs, habilidades do Ender Dragon e muito mais.",
+	"authors": [],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.endplus.EndPlus"],
+		"client": ["com.endplus.client.EndPlusClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
